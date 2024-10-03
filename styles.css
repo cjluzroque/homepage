@@ -29,7 +29,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 60px;
 }
 
 ul {
@@ -48,11 +47,19 @@ ul {
 /* Body One */
 .body-one {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.imginsert {
-    width: 300px;
-    height: 100px;
+.hero, .imginsert {
+    width: 500px;
+    height: 250px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 /* Body Two */
