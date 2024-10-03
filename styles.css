@@ -27,32 +27,41 @@ body {
 /* Header */
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 200px;
+    padding: 20px 100px;
+}
+
+.logo {
+    width: 400px;
+    height: 30px;
+    flex-shrink: 0;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     display: flex;
     gap: 12px;
-    margin: 30px;
+    margin: 0;
+    width: 400px;
 }
 
 .body-one, .body-two, .body-three, .body-four {
-    height: 500px;
+    height: 400px;
 }
 
 /* Body One */
 .body-one {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 64px;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 0 100px;
 }
 
-.hero, .imginsert {
+.imginsert {
     width: 500px;
     height: 250px;
 }
@@ -66,10 +75,12 @@ ul {
 
 .hero-main {
     width: 300px;
+    text-align: left;
 }
 
 .hero-second {
     width: 400px;
+    text-align: left;
 }
 
 /* Body Two */
