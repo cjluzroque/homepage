@@ -43,7 +43,7 @@ ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    gap: 12px;
+    gap: 15px;
     margin: 0;
     width: 400px;
 }
@@ -88,25 +88,31 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 8px;
+    justify-content: space-evenly;
+}
+
+.info-header {
+    width: 600px;
+    height: auto;
+    text-align: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 30px;
 }
 
 .text {
-    width: 200px;
+    width: 180px;
 }
 
 .ill {
-    border: black;
+    border: 4px solid #3882F6;
     border-radius: 10%;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
 }
 
 /* Body Three */
@@ -139,8 +145,8 @@ ul {
 .box {
     border-radius: 10px;
     display: flex;
-    width: 1000px;
-    height: 200px;
+    width: 800px;
+    height: 150px;
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
@@ -151,6 +157,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90px;;
 }
 
 
