@@ -41,14 +41,15 @@ ul {
 }
 
 .body-one, .body-two, .body-three, .body-four {
-    height: 400px;
+    height: 500px;
 }
 
 /* Body One */
 .body-one {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 64px;
 }
 
 .hero, .imginsert {
@@ -60,6 +61,15 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: space-evenly;
+}
+
+.hero-main {
+    width: 300px;
+}
+
+.hero-second {
+    width: 400px;
 }
 
 /* Body Two */
@@ -94,18 +104,16 @@ ul {
     flex-direction: column;
     padding: 32px;
     justify-content: center;
+    align-items: center;
 }
 
 .quote-text, .author {
     width: 600px;
 }
 
-.quote-text {
-    align-self: center;
-}
 
 .author {
-    align-self: flex-end;
+    text-align: right;
     font-weight: bold;
     flex-shrink: 2;
 }
@@ -172,7 +180,9 @@ button, .box {
 }
 
 button {
-    border-style: 1px solid white;
+    border-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
 }
 
 .body-three {
