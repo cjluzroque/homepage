@@ -11,12 +11,18 @@ html {
 }
 
 body {
+    margin: 0;
+    min-height: 100vh;
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
-    flex: 1;
-    justify-content: space-between;
 }
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
 
 /* Header */
 .header {
@@ -31,27 +37,67 @@ body {
 }
 
 .links {
-
+    color: #E5E7EB;
 }
 
 /* Body One */
 .body-one {
-
+    display: flex;
 }
 
 /* Body Two */
 .body-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.header2 {
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ill {
+    border: black;
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
 }
 
 /* Body Three */
 .body-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 32px;
+}
 
+.quote {
+    align-self: center;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
 }
 
 /* Body Four */
 .body-four {
 
+}
+
+.box {
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+    margin: 50px;
 }
 
 /* Footer */
@@ -61,6 +107,26 @@ footer {
     align-items: center;
 }
 
+
+/* Combos */
 .header, footer, .body-one {
     background-color: #1F2937;
+}
+
+.links, .bodytext, footer {
+    color: #E5E7EB;
+}
+
+.header2, .quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+button, .box {
+    background-color: #3882F6;
+    color: white;
+}
+
+button {
+    border-style: 1px solid white;
 }
