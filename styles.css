@@ -102,18 +102,24 @@ ul {
 .author {
     align-self: flex-end;
     font-weight: bold;
+    flex-shrink: 2;
 }
 
 /* Body Four */
 .body-four {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
-    border-radius: 10%;
+    border-radius: 10px;
     display: flex;
+    width: 1000px;
+    height: 200px;
     justify-content: space-around;
-    padding: 50px 150px;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 /* Footer */
