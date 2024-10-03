@@ -88,6 +88,11 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 32px;
+    justify-content: center;
+}
+
+.quote-text, .author {
+    width: 600px;
 }
 
 .quote-text {
@@ -96,6 +101,7 @@ ul {
 
 .author {
     align-self: flex-end;
+    font-weight: bold;
 }
 
 /* Body Four */
@@ -169,4 +175,5 @@ button {
 .quote-text {
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
 }
