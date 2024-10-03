@@ -27,7 +27,8 @@ body {
 /* Header */
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
@@ -38,6 +39,15 @@ body {
 
 .links {
     color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    margin: 30px;
 }
 
 /* Body One */
