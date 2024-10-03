@@ -29,6 +29,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 60px;
 }
 
 ul {
@@ -38,6 +39,10 @@ ul {
     display: flex;
     gap: 12px;
     margin: 30px;
+}
+
+.body-one, .body-two, .body-three, .body-four {
+    height: 400px;
 }
 
 /* Body One */
@@ -96,7 +101,6 @@ ul {
     display: flex;
     justify-content: space-around;
     padding: 50px 150px;
-    margin: 50px;
 }
 
 /* Footer */
@@ -114,7 +118,7 @@ footer {
 
 .hero-main {
     font-size: 48px;
-    weight: 900;
+    font-weight: 900;
 }
 
 .hero-second {
@@ -140,7 +144,7 @@ button, .box {
 
 .info-header {
     font-size: 36px;
-    weight: 900;
+    font-weight: 900;
 }
 
 button {
