@@ -11,9 +11,9 @@ html {
 }
 
 body {
+    font-family: 'Roboto';
     margin: 0;
     min-height: 100vh;
-    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
 }
@@ -31,16 +31,6 @@ body {
     align-items: center;
 }
 
-.logo {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
-}
-
-.links {
-    color: #E5E7EB;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -55,16 +45,17 @@ ul {
     display: flex;
 }
 
+.imginsert {
+    width: 300px;
+    height: 100px;
+}
+
 /* Body Two */
 .body-two {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.header2 {
-    font-weight: 900;
 }
 
 .container {
@@ -84,13 +75,11 @@ ul {
 .body-three {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
     padding: 32px;
 }
 
-.quote {
+.quote-text {
     align-self: center;
-    font-style: italic;
 }
 
 .author {
@@ -118,18 +107,30 @@ footer {
 }
 
 
-/* Combos */
-.header, footer, .body-one {
+/* Color and Font Styles */
+.header, .body-one, footer {
     background-color: #1F2937;
 }
 
-.links, .bodytext, footer {
+.hero-main {
+    font-size: 48px;
+    weight: 900;
+}
+
+.hero-second {
+    font-size: 18px;
+}
+
+.hero-second, li, footer {
     color: #E5E7EB;
 }
 
-.header2, .quote {
-    font-size: 36px;
-    color: #1F2937;
+.logo {
+    font-size: 24px;
+}
+
+.hero-main, .logo {
+    color: #F9FAF8;
 }
 
 button, .box {
@@ -137,6 +138,24 @@ button, .box {
     color: white;
 }
 
+.info-header {
+    font-size: 36px;
+    weight: 900;
+}
+
 button {
     border-style: 1px solid white;
+}
+
+.body-three {
+    background-color: #E5E7EB;
+}
+
+.info-header, .quote-text {
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
 }
