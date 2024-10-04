@@ -29,24 +29,22 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 200px;
+    gap: 4em;
     padding: 20px 100px;
 }
 
 .logo {
-    width: 400px;
-    height: 30px;
+    width: 15em;
     flex-shrink: 0;
     text-align: center;
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
     display: flex;
-    gap: 15px;
+    gap: 1em;
     margin: 0;
-    width: 400px;
+    width: 40em;
     justify-content: center;
 }
 
@@ -97,7 +95,7 @@ ul {
     height: auto;
     text-align: center;
     flex-wrap: wrap;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
 }
 
 .container {
@@ -123,7 +121,6 @@ ul {
 .body-three {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -131,11 +128,13 @@ ul {
     max-width: 18em;
 }
 
+.quote-text {
+    margin: 1em;
+}
 
 .author {
-    text-align: right;
     font-weight: bold;
-    flex-shrink: 2;
+    max-width: 12em;
 }
 
 /* Body Four */
