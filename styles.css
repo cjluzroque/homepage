@@ -29,12 +29,13 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 4em;
+    gap: 1em;
     padding: 20px 100px;
+    flex-wrap: wrap;
 }
 
 .logo {
-    width: 15em;
+    height: fit-content;
     flex-shrink: 0;
     text-align: center;
 }
@@ -44,12 +45,13 @@ ul {
     display: flex;
     gap: 1em;
     margin: 0;
-    width: 40em;
     justify-content: center;
+    padding-left: 0;
+    flex-wrap: wrap;
 }
 
 .body-one, .body-two, .body-three, .body-four {
-    padding: 4em;
+    padding: 3em;
     flex: 1;
 }
 
@@ -58,11 +60,13 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .imginsert {
     width: 20rem;
     height: 14em;
+    margin-top: 2em;
 }
 
 .hero {
