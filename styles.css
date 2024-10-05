@@ -151,7 +151,7 @@ ul {
     height: 8em;
     justify-content: space-around;
     align-items: center;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 /* Footer */
