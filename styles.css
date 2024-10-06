@@ -86,7 +86,7 @@ ul {
     text-align: left;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 895px) {
     .hero {
       align-items: center;
     }
