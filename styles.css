@@ -86,7 +86,7 @@ ul {
     text-align: left;
 }
 
-@media screen and (max-width: 895px) {
+@media screen and (max-width: 60rem) {
     .hero {
       align-items: center;
     }
@@ -162,11 +162,15 @@ ul {
 .box {
     border-radius: 10px;
     display: flex;
-    width: 40em;
-    height: 8em;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-shrink: 1;
+    padding: 2em;
+    gap: 1em;
+}
+
+.message {
+
 }
 
 /* Footer */
