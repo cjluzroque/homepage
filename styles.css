@@ -76,6 +76,7 @@ ul {
     flex-direction: column;
     gap: 10px;
     justify-content: space-evenly;
+    width: 30em;
 }
 
 .hero-main {
@@ -88,7 +89,7 @@ ul {
     text-align: left;
 }
 
-@media screen and (max-width: 58rem) {
+@media screen and (max-width: 895px) {
     .hero {
       align-items: center;
     }
