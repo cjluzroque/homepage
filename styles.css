@@ -59,7 +59,7 @@ ul {
 .body-one {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -67,6 +67,8 @@ ul {
     width: 20rem;
     height: 20em;
     margin: 1em 0;
+    border-radius: 50%;
+    border: 2px solid #F9FAF8;
 }
 
 .hero {
@@ -86,7 +88,7 @@ ul {
     text-align: left;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 58rem) {
     .hero {
       align-items: center;
     }
