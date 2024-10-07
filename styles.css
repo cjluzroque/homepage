@@ -40,7 +40,7 @@ body {
     text-align: center;
 }
 
-ul {
+.listedlinks {
     list-style-type: none;
     display: flex;
     gap: 2em;
