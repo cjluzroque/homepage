@@ -9,10 +9,19 @@
 }
 
 .job-one, .edu {
-    padding: 1em;
+    padding: 1.5em;
     margin: 0.5em;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.job-title, .edu-title {
+    display: flex;
+    flex-direction: column;
+    width: 11em;
+}
+
 
 .job-one, .edu {
     background-color: #E5E7EB;
@@ -27,6 +36,9 @@
 
 .job-title, .edu-title {
     font-size: 1.5rem;
+    background-color: #dbdee5;
+    padding: 1em;
+    border-radius: 10px;
 }
 
 
