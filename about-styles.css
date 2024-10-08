@@ -1,5 +1,9 @@
 /* About Me styles.css */
 
+.info-header {
+    text-align: center;
+}
+
 .job-one, .edu {
     padding: 1em;
     margin: 0.5em;
@@ -15,6 +19,10 @@
     border-radius: 10%;
     height: 10em;
     width: 10em;
+}
+
+.job-title, .edu-title {
+    font-size: 1.5rem;
 }
 
 
