@@ -42,3 +42,13 @@
     align-items: center;
     gap: 1em;
 }
+
+.languages {
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.name, .languages {
+    color:rgb(74, 74, 74)
+}
