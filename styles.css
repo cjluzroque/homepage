@@ -55,6 +55,22 @@ body {
     flex: 1;
 }
 
+/* Body Four */
+.body-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 1;
+    padding: 2em;
+    gap: 1em;
+}
 
 
 /* Footer */
