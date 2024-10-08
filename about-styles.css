@@ -1,6 +1,6 @@
 /* About Me styles.css */
 
-.job-one, .edu, .skills {
+.job-one, .edu {
     padding: 1em;
     margin: 0.5em;
     border-radius: 10px;
@@ -10,13 +10,17 @@
     background-color: #E5E7EB;
 }
 
-.skills {
-    background-color: white;
-}
-
-.ill {
+.icon {
     border: 4px solid #E5E7EB;
     border-radius: 10%;
     height: 10em;
     width: 10em;
+}
+
+
+/* Body three */
+.body-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
