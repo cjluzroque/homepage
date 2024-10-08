@@ -1,1 +1,22 @@
 /* About Me styles.css */
+
+.job-one, .edu, .skills {
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 10px;
+}
+
+.job-one, .edu {
+    background-color: #E5E7EB;
+}
+
+.skills {
+    background-color: white;
+}
+
+.ill {
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+    height: 12em;
+    width: 12em;
+}
