@@ -1,5 +1,9 @@
 /* About Me styles.css */
 
+.education {
+    margin-top: 2em;
+}
+
 .info-header {
     text-align: center;
 }
