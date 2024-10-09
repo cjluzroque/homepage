@@ -1,5 +1,10 @@
 /* About Me styles.css */
 
+.hero-second {
+    color:#c8cbcf;
+    font-style: italic;
+}
+
 .education {
     margin-top: 2em;
 }
@@ -42,14 +47,6 @@
     padding: 1em;
     border-radius: 10px;
 }
-
-/* Maybe a media query for when it wraps 
-@media screen and (max-width: 1183px) {
-    .job-one {
-      flex-direction: column;
-      align-items: center;
-    }
-} */
 
 .job-info, .edu-info {
     margin: 0.5em;
