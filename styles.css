@@ -32,6 +32,8 @@ body {
     gap: 1em;
     padding: 20px 100px;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
